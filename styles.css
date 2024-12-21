@@ -1,0 +1,30 @@
+/* Style Guide */
+:root {
+    /* background colours */
+    --color-bg-page: #F4D04E;
+    --color-bg-card: #FFFFFF;
+
+    /* text colours */
+    --color-text-primary: #111111;
+    --color-text-secondary: #6B6B6B;
+
+    /* border colours */
+    --color-border-card: #111111;
+
+    /* Accent colour (used for tag background and hover state) */
+    --color-accent:#F4D04E;
+
+    /* Typography */
+    --text-letter-spacing: 0;
+    --text-line-height: 1.5;
+    --text-font-size-small: 0.875rem;
+    --text-font-size-normal: 1rem;
+    --text-font-size-large: 1.5rem;
+
+    /* spacing */
+    --spacing-extra-small: 4px;
+    --spacing-medium: 12px;
+    --spacing-large: 24px;
+}
+
+
