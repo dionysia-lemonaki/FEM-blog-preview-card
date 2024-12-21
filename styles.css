@@ -27,4 +27,11 @@
     --spacing-large: 24px;
 }
 
+/* Fonts */
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/Figtree.woff2") format("woff2");
+    font-weight: 300 900;
+    font-display: swap;
+}
 
