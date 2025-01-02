@@ -1,0 +1,34 @@
+/* Design System */
+
+:root {
+    /* colours */
+    --color-primary-background: #F4D04E;
+    --color-card-background: #FFFFFF;
+    --color-accent: #F4D04E;
+    --color-text-primary: #111111;
+    --color-text-secondary: #6B6B6B;
+    --color-link: var(--color-text-primary);
+    --color-link-hover: var(--color-accent);
+
+    /* typography */
+    --font-size-title:  clamp(1.25rem, 1.162rem + 0.3756vw, 1.5rem);
+    --font-size-body: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
+    --font-size-body-sm: clamp(0.75rem, 0.706rem + 0.1878vw, 0.875rem);
+    --font-family: "Figtree", sans-serif;
+    --font-weight-extra-bold: 800;
+    --font-weight-medium: 500;
+    --line-height: 1.5;
+    --letter-spacing: 0;
+
+    /* spacing */
+    --spacing-sm: 0.75rem;
+    --spacing-lg: 1.5rem;
+
+    /* shadow */
+    --shadow: 8px 8px 0 0 rgb(0 0 0);
+    --shadow-hover: 10px 10px 0 0 rgb(0 0 0);
+
+    /* radius */
+    --radius-lg: 20px;
+    --radius-sm: 10px;
+}
