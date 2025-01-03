@@ -64,9 +64,34 @@ body {
   background-color: var(--color-primary-background);
   padding: var(--padding-base);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+/* Card Styles */
+
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card {
+    background-color: var(--color-card-background);
+    padding: var(--padding-card);
+    max-width:24rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+}
+
+/* Attribution Styles */
+
+.attribution {
+   text-align: center;
 }
