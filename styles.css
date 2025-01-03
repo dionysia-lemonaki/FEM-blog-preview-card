@@ -94,6 +94,8 @@ main {
 
 .blog-card-img {
     border-radius: var(--radius-sm);
+    width: 100%;
+    height: auto;
 }
 
 .blog-card-category {
