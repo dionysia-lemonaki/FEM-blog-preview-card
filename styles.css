@@ -21,6 +21,7 @@
     --letter-spacing: 0;
 
     /* spacing */
+    --padding-base: 16px;
     --padding-card: 24px;
     --margin-sm: 0.75rem;
     --margin-lg: 1.5rem;
@@ -41,4 +42,31 @@
     src: url("./assets/fonts/Figtree.woff2") format("woff2");
     font-display: swap;
     font-weight: 300 900;
+}
+
+/* Global Styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color: var(--color-text-primary);
+  background-color: var(--color-primary-background);
+  padding: var(--padding-base);
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
